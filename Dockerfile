@@ -10,7 +10,7 @@ RUN   apk --no-cache upgrade && \
     g++ \
     build-base \
     git && \
-  git clone https://github.com/b-i-t-n/xmr-stak-cpu && \
+  git clone https://github.com/Ozhiganov/alpine-xmr-stak-cpu && \
   cd xmr-stak-cpu && \
   cmake -DMICROHTTPD_REQUIRED=OFF -DCMAKE_LINK_STATIC=ON . && \
   make && \
